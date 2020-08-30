@@ -31,7 +31,7 @@
 
                                     </div><!--./input-group-->
                                     <div class="loading">
-                                        <img src="<?php echo base_url() ?>/backend/images/loading.gif" id="loader_<?php echo $pharses['id']; ?>">
+                                        <img src="<?php echo base_url() ?>/styles/images/loading.gif" id="loader_<?php echo $pharses['id']; ?>">
                                     </div><!--./loading-->
                                 </div><!--./form-group form-loading-->
                             </div><!--./col-md-4-->
@@ -74,5 +74,5 @@
 
 </script>
 
-<script src="<?php echo base_url(); ?>backend/dist/js/savemode.js"></script>
+<script src="<?php echo base_url(); ?>styles/dist/js/savemode.js"></script>
 

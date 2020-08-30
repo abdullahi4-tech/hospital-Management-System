@@ -143,9 +143,9 @@ if (form_error('message')) {
     </div>
 </form>
 
-<script src="<?php echo base_url(); ?>backend/plugins/datepicker/bootstrap-datepicker.js"></script>
-<link rel="stylesheet" href="<?php echo base_url() ?>backend/plugins/select2/select2.min.css">
-<script src="<?php echo base_url() ?>backend/plugins/select2/select2.full.min.js"></script>
+<script src="<?php echo base_url(); ?>styles/plugins/datepicker/bootstrap-datepicker.js"></script>
+<link rel="stylesheet" href="<?php echo base_url() ?>styles/plugins/select2/select2.min.css">
+<script src="<?php echo base_url() ?>styles/plugins/select2/select2.full.min.js"></script>
 <script type="text/javascript">
 
                     $(function () {

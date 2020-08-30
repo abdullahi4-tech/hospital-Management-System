@@ -8,54 +8,54 @@
     $.widget.bridge('uibutton', $.ui.button);
 </script>
 
-<link href="<?php echo base_url(); ?>backend/toast-alert/toastr.css" rel="stylesheet"/>
-<script src="<?php echo base_url(); ?>backend/toast-alert/toastr.js"></script>
+<link href="<?php echo base_url(); ?>styles/toast-alert/toastr.css" rel="stylesheet"/>
+<script src="<?php echo base_url(); ?>styles/toast-alert/toastr.js"></script>
 
-<script src="<?php echo base_url(); ?>backend/bootstrap/js/bootstrap.min.js"></script>
-<script src="<?php echo base_url(); ?>backend/dist/js/raphael-min.js"></script>
-<script src="<?php echo base_url(); ?>backend/plugins/morris/morris.min.js"></script>
-<script src="<?php echo base_url(); ?>backend/plugins/sparkline/jquery.sparkline.min.js"></script>
-<script src="<?php echo base_url(); ?>backend/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="<?php echo base_url(); ?>backend/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-<script src="<?php echo base_url(); ?>backend/plugins/knob/jquery.knob.js"></script>
-<script src="<?php echo base_url(); ?>backend/plugins/daterangepicker/daterangepicker.js"></script>
-<script src="<?php echo base_url(); ?>backend/plugins/datepicker/bootstrap-datepicker.js"></script>
-<script src="<?php echo base_url(); ?>backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
-<script src="<?php echo base_url(); ?>backend/plugins/slimScroll/jquery.slimscroll.min.js"></script>
-<script src="<?php echo base_url(); ?>backend/plugins/fastclick/fastclick.min.js"></script>
+<script src="<?php echo base_url(); ?>styles/bootstrap/js/bootstrap.min.js"></script>
+<script src="<?php echo base_url(); ?>styles/dist/js/raphael-min.js"></script>
+<script src="<?php echo base_url(); ?>styles/plugins/morris/morris.min.js"></script>
+<script src="<?php echo base_url(); ?>styles/plugins/sparkline/jquery.sparkline.min.js"></script>
+<script src="<?php echo base_url(); ?>styles/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="<?php echo base_url(); ?>styles/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="<?php echo base_url(); ?>styles/plugins/knob/jquery.knob.js"></script>
+<script src="<?php echo base_url(); ?>styles/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="<?php echo base_url(); ?>styles/plugins/datepicker/bootstrap-datepicker.js"></script>
+<script src="<?php echo base_url(); ?>styles/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<script src="<?php echo base_url(); ?>styles/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="<?php echo base_url(); ?>styles/plugins/fastclick/fastclick.min.js"></script>
 
-<script src="<?php echo base_url(); ?>backend/dist/js/app.min.js"></script>
+<script src="<?php echo base_url(); ?>styles/dist/js/app.min.js"></script>
 <!--nprogress-->
-<script src="<?php echo base_url(); ?>backend/dist/js/nprogress.js"></script>
+<script src="<?php echo base_url(); ?>styles/dist/js/nprogress.js"></script>
 <!--file dropify-->
-<script src="<?php echo base_url(); ?>backend/dist/js/dropify.min.js"></script>
-<script src="<?php echo base_url(); ?>backend/dist/js/demo.js"></script>
+<script src="<?php echo base_url(); ?>styles/dist/js/dropify.min.js"></script>
+<script src="<?php echo base_url(); ?>styles/dist/js/demo.js"></script>
 
 <!--print table-->
 <!--print table-->
-<script type="text/javascript" src="<?php echo base_url(); ?>backend/dist/datatables/js/jquery.dataTables.min-stu.par.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>backend/dist/datatables/js/dataTables.buttons.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>backend/dist/datatables/js/jszip.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>backend/dist/datatables/js/pdfmake.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>backend/dist/datatables/js/vfs_fonts.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>backend/dist/datatables/js/buttons.html5.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>backend/dist/datatables/js/buttons.print.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>backend/dist/datatables/js/buttons.colVis.min.js" ></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>backend/dist/datatables/js/dataTables.responsive.min.js" ></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>styles/dist/datatables/js/jquery.dataTables.min-stu.par.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>styles/dist/datatables/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>styles/dist/datatables/js/jszip.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>styles/dist/datatables/js/pdfmake.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>styles/dist/datatables/js/vfs_fonts.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>styles/dist/datatables/js/buttons.html5.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>styles/dist/datatables/js/buttons.print.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>styles/dist/datatables/js/buttons.colVis.min.js" ></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>styles/dist/datatables/js/dataTables.responsive.min.js" ></script>
 
-<script type="text/javascript" src="<?php echo base_url(); ?>backend/dist/datatables/js/ss.custom.js" ></script>
-<script src="<?php echo base_url(); ?>backend/dist/js/moment.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>styles/dist/datatables/js/ss.custom.js" ></script>
+<script src="<?php echo base_url(); ?>styles/dist/js/moment.min.js"></script>
 
 <?php
 $language = $this->customlib->getLanguage();
 $language_name = $language["short_code"];
 if ($language_name != 'en') {
     ?>
-    <script src="<?php echo base_url(); ?>backend/plugins/datepicker/locales/bootstrap-datepicker.<?php echo $language_name ?>.js"></script>
-    <script src="<?php echo base_url(); ?>backend/dist/js/locale/<?php echo $language_name ?>.js"></script>
+    <script src="<?php echo base_url(); ?>styles/plugins/datepicker/locales/bootstrap-datepicker.<?php echo $language_name ?>.js"></script>
+    <script src="<?php echo base_url(); ?>styles/dist/js/locale/<?php echo $language_name ?>.js"></script>
 
 <?php } ?>
-<script src="<?php echo base_url(); ?>backend/datepicker/js/bootstrap-datetimepicker.js"></script>
+<script src="<?php echo base_url(); ?>styles/datepicker/js/bootstrap-datetimepicker.js"></script>
 
 </body>
 </html>

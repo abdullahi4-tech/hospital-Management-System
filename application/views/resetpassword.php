@@ -15,13 +15,13 @@
         ?>
         <title><?php echo $title_name; ?></title>
         <!--favican-->
-        <link href="<?php echo base_url(); ?>backend/images/s-favican.png" rel="shortcut icon" type="image/x-icon">
+        <link href="<?php echo base_url(); ?>styles/images/s-favican.png" rel="shortcut icon" type="image/x-icon">
         <!-- CSS -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/usertemplate/assets/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/usertemplate/assets/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/usertemplate/assets/css/form-elements.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/usertemplate/assets/css/style.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/usertemplate/assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/usertemplate/assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/usertemplate/assets/css/form-elements.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/usertemplate/assets/css/style.css">
         <style type="text/css">
 
             .inner-bg {padding: 10px 0 170px 0;}
@@ -121,7 +121,7 @@
                                 <div class="">
                                     <img src="<?php echo $logo_image; ?>" class="logowidth">
                                 </div>
-                                    <!--<img src="<?php echo base_url(); ?>backend/images/s_logo.png" class="logowidth">-->
+                                    <!--<img src="<?php echo base_url(); ?>styles/images/s_logo.png" class="logowidth">-->
                             </div>
                         </div>
                     </div>
@@ -161,23 +161,23 @@
                         </div>
 
                         <div class="col-md-6 col-sm-12 discover">
-                            <img src="<?php echo base_url(); ?>backend/usertemplate/assets/img/backgrounds/discover.png">
+                            <img src="<?php echo base_url(); ?>styles/usertemplate/assets/img/backgrounds/discover.png">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Javascript -->
-        <script src="<?php echo base_url(); ?>backend/usertemplate/assets/js/jquery-1.11.1.min.js"></script>
-        <script src="<?php echo base_url(); ?>backend/usertemplate/assets/bootstrap/js/bootstrap.min.js"></script>
-        <script src="<?php echo base_url(); ?>backend/usertemplate/assets/js/jquery.backstretch.min.js"></script>
+        <script src="<?php echo base_url(); ?>styles/usertemplate/assets/js/jquery-1.11.1.min.js"></script>
+        <script src="<?php echo base_url(); ?>styles/usertemplate/assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="<?php echo base_url(); ?>styles/usertemplate/assets/js/jquery.backstretch.min.js"></script>
     </body>
 </html>
 <script type="text/javascript">
     $(document).ready(function () {
         var base_url = '<?php echo base_url(); ?>';
         $.backstretch([
-            base_url + "backend/usertemplate/assets/img/backgrounds/user15.jpg"
+            base_url + "styles/usertemplate/assets/img/backgrounds/user15.jpg"
         ], {duration: 3000, fade: 750});
         $('.login-form input[type="text"], .login-form input[type="password"], .login-form textarea').on('focus', function () {
             $(this).removeClass('input-error');

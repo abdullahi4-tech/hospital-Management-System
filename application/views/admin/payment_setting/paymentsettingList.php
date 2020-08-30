@@ -54,7 +54,7 @@
 
                                             </div>
                                             <div class="col-md-5 text text-center disblock">
-                                                <a href="https://www.paypal.com/in/home" target="_blank"><img src="<?php echo base_url() ?>backend/images/paypal.png" width="200"><p>https://www.paypal.com</p></a>
+                                                <a href="https://www.paypal.com/in/home" target="_blank"><img src="<?php echo base_url() ?>styles/images/paypal.png" width="200"><p>https://www.paypal.com</p></a>
                                             </div>
                                         </div>
 
@@ -96,7 +96,7 @@
 
                                             </div>
                                             <div class="col-md-5 text text-center disblock">
-                                                <a href="https://stripe.com/" target="_blank"><img src="<?php echo base_url() ?>backend/images/stripe.png"><p>https://stripe.com</p></a>
+                                                <a href="https://stripe.com/" target="_blank"><img src="<?php echo base_url() ?>styles/images/stripe.png"><p>https://stripe.com</p></a>
                                             </div>
                                         </div>
                                     </div>
@@ -137,7 +137,7 @@
 
                                             </div>
                                             <div class="col-md-5 text text-center disblock">
-                                                <a href="https://www.payumoney.com" target="_blank"><img src="<?php echo base_url() ?>backend/images/paym.png"><p>https://www.payumoney.com</p></a>
+                                                <a href="https://www.payumoney.com" target="_blank"><img src="<?php echo base_url() ?>styles/images/paym.png"><p>https://www.payumoney.com</p></a>
 
                                             </div>
                                         </div>

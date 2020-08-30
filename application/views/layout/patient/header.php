@@ -6,9 +6,9 @@
         <title><?php echo $this->customlib->getAppName(); ?></title>        
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <meta name="theme-color" content="#424242" />
-        <link href="<?php echo base_url(); ?>backend/images/s-favican.png" rel="shortcut icon" type="image/x-icon">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/dist/css/style-main.css">
+        <link href="<?php echo base_url(); ?>styles/images/s-favican.png" rel="shortcut icon" type="image/x-icon">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/dist/css/style-main.css">
 
         <?php
         $this->load->view('layout/theme');
@@ -17,50 +17,50 @@
         if ($this->customlib->getRTL() != "") {
             ?>
             <!-- Bootstrap 3.3.5 RTL -->
-            <link rel="stylesheet" href="<?php echo base_url(); ?>backend/rtl/bootstrap-rtl/css/bootstrap-rtl.min.css"/>  
+            <link rel="stylesheet" href="<?php echo base_url(); ?>styles/rtl/bootstrap-rtl/css/bootstrap-rtl.min.css"/>  
             <!-- Theme RTL style -->
-            <link rel="stylesheet" href="<?php echo base_url(); ?>backend/rtl/dist/css/AdminLTE-rtl.min.css" />
-            <link rel="stylesheet" href="<?php echo base_url(); ?>backend/rtl/dist/css/ss-rtlmain.css">
-            <link rel="stylesheet" href="<?php echo base_url(); ?>backend/rtl/dist/css/skins/_all-skins-rtl.min.css" />
+            <link rel="stylesheet" href="<?php echo base_url(); ?>styles/rtl/dist/css/AdminLTE-rtl.min.css" />
+            <link rel="stylesheet" href="<?php echo base_url(); ?>styles/rtl/dist/css/ss-rtlmain.css">
+            <link rel="stylesheet" href="<?php echo base_url(); ?>styles/rtl/dist/css/skins/_all-skins-rtl.min.css" />
 
             <?php
         } else {
             
         }
         ?>
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/dist/css/all.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/dist/css/font-awesome.min.css">      
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/dist/css/ionicons.min.css">       
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/dist/css/all.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/dist/css/font-awesome.min.css">      
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/dist/css/ionicons.min.css">       
 
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/plugins/iCheck/flat/blue.css">      
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/plugins/morris/morris.css">       
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/plugins/jvectormap/jquery-jvectormap-1.2.2.css">        
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/plugins/datepicker/datepicker3.css">       
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/plugins/daterangepicker/daterangepicker-bs3.css">      
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/sweet-alert/sweetalert2.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/dist/css/custom_style.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/datepicker/css/bootstrap-datetimepicker.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/plugins/iCheck/flat/blue.css">      
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/plugins/morris/morris.css">       
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/plugins/jvectormap/jquery-jvectormap-1.2.2.css">        
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/plugins/datepicker/datepicker3.css">       
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/plugins/daterangepicker/daterangepicker-bs3.css">      
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/sweet-alert/sweetalert2.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/dist/css/custom_style.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/datepicker/css/bootstrap-datetimepicker.css">
         <!--file dropify-->
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/dist/css/dropify.min.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>styles/dist/css/dropify.min.css">
         <!--file nprogress-->
-        <link href="<?php echo base_url(); ?>backend/dist/css/nprogress.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>styles/dist/css/nprogress.css" rel="stylesheet">
         <!--print table-->
-        <link href="<?php echo base_url(); ?>backend/dist/datatables/css/jquery.dataTables.min.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>backend/dist/datatables/css/buttons.dataTables.min.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>backend/dist/datatables/css/dataTables.bootstrap.min.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>styles/dist/datatables/css/jquery.dataTables.min.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>styles/dist/datatables/css/buttons.dataTables.min.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>styles/dist/datatables/css/dataTables.bootstrap.min.css" rel="stylesheet">
         <!--print table mobile support-->
-        <link href="<?php echo base_url(); ?>backend/dist/datatables/css/responsive.dataTables.min.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>backend/dist/datatables/css/rowReorder.dataTables.min.css" rel="stylesheet">
-        <script src="<?php echo base_url(); ?>backend/custom/jquery.min.js"></script>
+        <link href="<?php echo base_url(); ?>styles/dist/datatables/css/responsive.dataTables.min.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>styles/dist/datatables/css/rowReorder.dataTables.min.css" rel="stylesheet">
+        <script src="<?php echo base_url(); ?>styles/custom/jquery.min.js"></script>
 
-        <script src="<?php echo base_url(); ?>backend/datepicker/date.js"></script>       
-        <script src="<?php echo base_url(); ?>backend/dist/js/jquery-ui.min.js"></script>
-        <script src="<?php echo base_url(); ?>backend/js/school-custom.js"></script>
-        <script src="<?php echo base_url(); ?>backend/dist/js/moment.min.js"></script>
+        <script src="<?php echo base_url(); ?>styles/datepicker/date.js"></script>       
+        <script src="<?php echo base_url(); ?>styles/dist/js/jquery-ui.min.js"></script>
+        <script src="<?php echo base_url(); ?>styles/js/school-custom.js"></script>
+        <script src="<?php echo base_url(); ?>styles/dist/js/moment.min.js"></script>
         <!-- fullCalendar -->
-        <link rel="stylesheet" href="<?php echo base_url() ?>backend/fullcalendar/dist/fullcalendar.min.css">
-        <link rel="stylesheet" href="<?php echo base_url() ?>backend/fullcalendar/dist/fullcalendar.print.min.css" media="print">
+        <link rel="stylesheet" href="<?php echo base_url() ?>styles/fullcalendar/dist/fullcalendar.min.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>styles/fullcalendar/dist/fullcalendar.print.min.css" media="print">
 
         <script type="text/javascript">
             var baseurl = "<?php echo base_url(); ?>";

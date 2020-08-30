@@ -10,10 +10,10 @@ $genderList = $this->customlib->getGender();
 </style>
 <!--file dropify-->
 
-<link rel="stylesheet" href="<?php echo base_url(); ?>backend/dist/css/dropify.min.css">
-<link href="<?php echo base_url(); ?>backend/dist/css/nprogress.css" rel="stylesheet">
-<script src="<?php echo base_url(); ?>backend/dist/js/nprogress.js"></script>
-<script src="<?php echo base_url(); ?>backend/dist/js/dropify.min.js"></script>
+<link rel="stylesheet" href="<?php echo base_url(); ?>styles/dist/css/dropify.min.css">
+<link href="<?php echo base_url(); ?>styles/dist/css/nprogress.css" rel="stylesheet">
+<script src="<?php echo base_url(); ?>styles/dist/js/nprogress.js"></script>
+<script src="<?php echo base_url(); ?>styles/dist/js/dropify.min.js"></script>
 <!-- -->
 <form id="editbill" accept-charset="utf-8" method="post" class="ptt10">
     <div class="row">

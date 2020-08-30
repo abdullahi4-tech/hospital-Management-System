@@ -1,5 +1,5 @@
 
-<script src="<?php echo base_url(); ?>backend/plugins/ckeditor/ckeditor.js"></script>
+<script src="<?php echo base_url(); ?>styles/plugins/ckeditor/ckeditor.js"></script>
 
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">

@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="<?php echo base_url(); ?>backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
-<script src="<?php echo base_url(); ?>backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<link rel="stylesheet" href="<?php echo base_url(); ?>styles/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+<script src="<?php echo base_url(); ?>styles/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
 <script type="text/javascript">
 
     function delete_prescription(id, ipdid) {

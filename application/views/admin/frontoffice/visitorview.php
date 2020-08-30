@@ -386,8 +386,8 @@
 
     </div>
 </div>
-<link rel="stylesheet" href="<?php echo base_url(); ?>backend/plugins/timepicker/bootstrap-timepicker.min.css">
-<script src="<?php echo base_url(); ?>backend/plugins/timepicker/bootstrap-timepicker.min.js"></script>
+<link rel="stylesheet" href="<?php echo base_url(); ?>styles/plugins/timepicker/bootstrap-timepicker.min.css">
+<script src="<?php echo base_url(); ?>styles/plugins/timepicker/bootstrap-timepicker.min.js"></script>
 
 <script type="text/javascript">
                                                                     $(document).ready(function () {

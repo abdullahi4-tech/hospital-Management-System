@@ -5,17 +5,17 @@ foreach ($img_array as $key => $gallery_value) {
     } elseif ($gallery_value['file_type'] == 'video') {
         $file = base_url() . $gallery_value['thumb_path'] . $gallery_value['img_name'];
     } elseif ($gallery_value['file_type'] == 'text/plain') {
-        $file = base_url('backend/images/txticon.png');
+        $file = base_url('styles/images/txticon.png');
     } elseif ($gallery_value['file_type'] == 'application/zip' || $gallery_value['file_type'] == 'application/x-rar') {
-        $file = base_url('backend/images/zipicon.png');
+        $file = base_url('styles/images/zipicon.png');
     } elseif ($gallery_value['file_type'] == 'application/pdf') {
-        $file = base_url('backend/images/pdficon.png');
+        $file = base_url('styles/images/pdficon.png');
     } elseif ($gallery_value['file_type'] == 'application/msword') {
-        $file = base_url('backend/images/wordicon.png');
+        $file = base_url('styles/images/wordicon.png');
     } elseif ($gallery_value['file_type'] == 'application/vnd.ms-excel') {
-        $file = base_url('backend/images/excelicon.png');
+        $file = base_url('styles/images/excelicon.png');
     } else {
-        $file = base_url('backend/images/docicon.png');
+        $file = base_url('styles/images/docicon.png');
     }
     ?>
     <div class='col-sm-6 col-md-2 col-xs-6 image_div div_record_<?php echo $gallery_value['record_id'] ?>'>

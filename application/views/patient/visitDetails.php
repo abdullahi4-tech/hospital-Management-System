@@ -2,8 +2,8 @@
 $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
 $genderList = $this->customlib->getGender();
 ?>
-<link rel="stylesheet" href="<?php echo base_url(); ?>backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
-<script src="<?php echo base_url(); ?>backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<link rel="stylesheet" href="<?php echo base_url(); ?>styles/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+<script src="<?php echo base_url(); ?>styles/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
 <style type="text/css">
     span{
         text-transform: capitalize;
@@ -1531,16 +1531,16 @@ $genderList = $this->customlib->getGender();
         frameDoc.document.write('<html>');
         frameDoc.document.write('<head>');
         frameDoc.document.write('<title></title>');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/bootstrap/css/bootstrap.min.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/dist/css/font-awesome.min.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/dist/css/ionicons.min.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/dist/css/AdminLTE.min.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/dist/css/skins/_all-skins.min.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/plugins/iCheck/flat/blue.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/plugins/morris/morris.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/plugins/jvectormap/jquery-jvectormap-1.2.2.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/plugins/datepicker/datepicker3.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/plugins/daterangepicker/daterangepicker-bs3.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/bootstrap/css/bootstrap.min.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/dist/css/font-awesome.min.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/dist/css/ionicons.min.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/dist/css/AdminLTE.min.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/dist/css/skins/_all-skins.min.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/plugins/iCheck/flat/blue.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/plugins/morris/morris.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/plugins/jvectormap/jquery-jvectormap-1.2.2.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/plugins/datepicker/datepicker3.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/plugins/daterangepicker/daterangepicker-bs3.css">');
         frameDoc.document.write('</head>');
         frameDoc.document.write('<body>');
         frameDoc.document.write(data);

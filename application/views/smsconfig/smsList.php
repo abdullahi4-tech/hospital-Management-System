@@ -73,7 +73,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-5 text text-center disblock">
-                                                <a href="https://www.clickatell.com/" target="_blank"><img src="<?php echo base_url() ?>backend/images/clickatell.png"><p>https://www.clickatell.com</p></a>
+                                                <a href="https://www.clickatell.com/" target="_blank"><img src="<?php echo base_url() ?>styles/images/clickatell.png"><p>https://www.clickatell.com</p></a>
                                             </div>
                                         </div>
 
@@ -142,7 +142,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-5 text text-center disblock">
-                                                <a href="https://www.twilio.com/?v=t" target="_blank"><img src="<?php echo base_url() ?>backend/images/twilio.png"><p>https://www.twilio.com</p></a>
+                                                <a href="https://www.twilio.com/?v=t" target="_blank"><img src="<?php echo base_url() ?>styles/images/twilio.png"><p>https://www.twilio.com</p></a>
                                             </div>
                                         </div>
                                     </div>
@@ -197,7 +197,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-5 text text-center disblock">
-                                                <a href=""><img src="<?php echo base_url() ?>backend/images/custom-sms.png"></a>
+                                                <a href=""><img src="<?php echo base_url() ?>styles/images/custom-sms.png"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -260,7 +260,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-5 text text-center disblock">
-                                                <a href="https://msg91.com/" target="_blank"><img src="<?php echo base_url() ?>backend/images/msg91.png"><p>https://msg91.com</p></a>
+                                                <a href="https://msg91.com/" target="_blank"><img src="<?php echo base_url() ?>styles/images/msg91.png"><p>https://msg91.com</p></a>
                                             </div>
                                         </div>
                                     </div>
@@ -328,7 +328,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-5  text text-center disblock">
-                                                <a href="https://www.smscountry.com/" target="_blank"><img src="<?php echo base_url() ?>backend/images/sms-country.jpg"><p>https://www.smscountry.com</p></a>
+                                                <a href="https://www.smscountry.com/" target="_blank"><img src="<?php echo base_url() ?>styles/images/sms-country.jpg"><p>https://www.smscountry.com</p></a>
                                             </div>
                                         </div>
                                     </div>
@@ -397,7 +397,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-5 text text-center disblock">
-                                                <a href="https://www.textlocal.in/" target="_blank"><img src="<?php echo base_url() ?>backend/images/textlocal.png"><p>https://www.textlocal.in</p></a>
+                                                <a href="https://www.textlocal.in/" target="_blank"><img src="<?php echo base_url() ?>styles/images/textlocal.png"><p>https://www.textlocal.in</p></a>
 
                                             </div>
                                         </div>
@@ -446,7 +446,7 @@ function check_in_array($find, $array) {
 
 
 <script type="text/javascript">
-    var img_path = "<?php echo base_url() . '/backend/images/loading.gif' ?>";
+    var img_path = "<?php echo base_url() . '/styles/images/loading.gif' ?>";
     $("#clickatell").submit(function (e) {
         $("[class$='_error']").html("");
 

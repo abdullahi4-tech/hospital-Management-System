@@ -140,7 +140,7 @@
                     <div class="box-body">
                         <div id="fade"></div>
                         <div id="modal">
-                            <img id="loader" src="<?php echo base_url() ?>/backend/images/loading_blue.gif" />
+                            <img id="loader" src="<?php echo base_url() ?>/styles/images/loading_blue.gif" />
                         </div>
                         <?php
                         if (!empty($customfields)) {

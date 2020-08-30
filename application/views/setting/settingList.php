@@ -129,18 +129,18 @@ $genderList = $this->customlib->getGender();
                         </div>    
                         <div class="row">
                             <div class="col-md-3 col-sm-3 col-xs-6">
-                                <img class="<?php echo ($settinglist[0]['theme'] == "default.jpg") ? "radioactive" : ""; ?> img-responsive radioborder" src="<?php echo base_url(); ?>backend/images/default.jpg">
+                                <img class="<?php echo ($settinglist[0]['theme'] == "default.jpg") ? "radioactive" : ""; ?> img-responsive radioborder" src="<?php echo base_url(); ?>styles/images/default.jpg">
                             </div>
                             <div class="col-md-3 col-sm-3 col-xs-6">
-                                <img class="<?php echo ($settinglist[0]['theme'] == "red.jpg") ? "radioactive" : ""; ?> img-responsive radioborder" src="<?php echo base_url(); ?>backend/images/red.jpg">
+                                <img class="<?php echo ($settinglist[0]['theme'] == "red.jpg") ? "radioactive" : ""; ?> img-responsive radioborder" src="<?php echo base_url(); ?>styles/images/red.jpg">
                             </div>
                             <div class="col-md-3 col-sm-3 col-xs-6">
-                                <img class="<?php echo ($settinglist[0]['theme'] == "blue.jpg") ? "radioactive" : ""; ?> img-responsive radioborder" src="<?php echo base_url(); ?>backend/images/blue.jpg">
+                                <img class="<?php echo ($settinglist[0]['theme'] == "blue.jpg") ? "radioactive" : ""; ?> img-responsive radioborder" src="<?php echo base_url(); ?>styles/images/blue.jpg">
 
                             </div>
                             <div class="col-md-3 col-sm-3 col-xs-6">
 
-                                <img class="<?php echo ($settinglist[0]['theme'] == "gray.jpg") ? "radioactive" : ""; ?> img-responsive radioborder" src="<?php echo base_url(); ?>backend/images/gray.jpg">
+                                <img class="<?php echo ($settinglist[0]['theme'] == "gray.jpg") ? "radioactive" : ""; ?> img-responsive radioborder" src="<?php echo base_url(); ?>styles/images/gray.jpg">
                             </div>
                         </div>
 
@@ -408,28 +408,28 @@ $genderList = $this->customlib->getGender();
                                         <div class="col-sm-3 col-xs-6">
                                             <label class="radio-img">
                                                 <input name="theme"  value="default.jpg" type="radio" />
-                                                <img src="<?php echo base_url(); ?>backend/images/default.jpg">
+                                                <img src="<?php echo base_url(); ?>styles/images/default.jpg">
                                             </label>
                                         </div>
                                         <div class="col-sm-3 col-xs-6">
                                             <label class="radio-img">
 
                                                 <input name="theme"  value="red.jpg" type="radio" /> 
-                                                <img src="<?php echo base_url(); ?>backend/images/red.jpg">
+                                                <img src="<?php echo base_url(); ?>styles/images/red.jpg">
                                             </label>
                                         </div>
                                         <div class="col-sm-3 col-xs-6">
                                             <label class="radio-img">
 
                                                 <input name="theme" value="blue.jpg" type="radio" /> 
-                                                <img src="<?php echo base_url(); ?>backend/images/blue.jpg">
+                                                <img src="<?php echo base_url(); ?>styles/images/blue.jpg">
                                             </label>
                                         </div>
                                         <div class="col-sm-3 col-xs-6">
                                             <label class="radio-img">
 
                                                 <input name="theme" value="gray.jpg" type="radio" /> 
-                                                <img src="<?php echo base_url(); ?>backend/images/gray.jpg">
+                                                <img src="<?php echo base_url(); ?>styles/images/gray.jpg">
                                             </label>
                                         </div>
                                     </div>

@@ -248,7 +248,7 @@
                                                         <label class="radio-img">
                                                             <input name="theme"  value="<?php echo $theme_key; ?>" type="radio" <?php echo set_radio('theme', $theme_key, (set_value('theme', $frontcmslist->theme) == $theme_key) ? true : false); ?> />
 
-                                                            <img src="<?php echo base_url('backend/images/front_theme/' . $theme_value); ?>">
+                                                            <img src="<?php echo base_url('styles/images/front_theme/' . $theme_value); ?>">
                                                         </label>
                                                     </div>
                                                     <?php

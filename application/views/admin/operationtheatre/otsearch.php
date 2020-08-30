@@ -1165,7 +1165,7 @@ $file = "uploads/patient_images/no_image.png";
     function get_PatientDetails(id) {
         //$("#schedule_charge").html("schedule_charge");
         //$('#guardian_name').html("Null");
-        var base_url = "<?php echo base_url(); ?>backend/images/loading.gif";
+        var base_url = "<?php echo base_url(); ?>styles/images/loading.gif";
 
         $("#ajax_load").html("<center><img src='" + base_url + "'/>");
         $.ajax({
@@ -1242,7 +1242,7 @@ $file = "uploads/patient_images/no_image.png";
     function get_ePatientDetails(id) {
         //$("#schedule_charge").html("schedule_charge");
         //$('#guardian_name').html("Null");
-        var base_url = "<?php echo base_url(); ?>backend/images/loading.gif";
+        var base_url = "<?php echo base_url(); ?>styles/images/loading.gif";
 
         $("#ajax_load").html("<center><img src='" + base_url + "'/>");
         $.ajax({
@@ -1593,16 +1593,16 @@ $file = "uploads/patient_images/no_image.png";
         frameDoc.document.write('<html>');
         frameDoc.document.write('<head>');
         frameDoc.document.write('<title></title>');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/bootstrap/css/bootstrap.min.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/dist/css/font-awesome.min.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/dist/css/ionicons.min.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/dist/css/AdminLTE.min.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/dist/css/skins/_all-skins.min.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/plugins/iCheck/flat/blue.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/plugins/morris/morris.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/plugins/jvectormap/jquery-jvectormap-1.2.2.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/plugins/datepicker/datepicker3.css">');
-        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'backend/plugins/daterangepicker/daterangepicker-bs3.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/bootstrap/css/bootstrap.min.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/dist/css/font-awesome.min.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/dist/css/ionicons.min.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/dist/css/AdminLTE.min.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/dist/css/skins/_all-skins.min.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/plugins/iCheck/flat/blue.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/plugins/morris/morris.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/plugins/jvectormap/jquery-jvectormap-1.2.2.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/plugins/datepicker/datepicker3.css">');
+        frameDoc.document.write('<link rel="stylesheet" href="' + base_url + 'styles/plugins/daterangepicker/daterangepicker-bs3.css">');
         frameDoc.document.write('</head>');
         frameDoc.document.write('<body >');
         frameDoc.document.write(data);

@@ -1,4 +1,4 @@
-<script src="<?php echo base_url(); ?>backend/plugins/ckeditor/ckeditor.js"></script>
+<script src="<?php echo base_url(); ?>styles/plugins/ckeditor/ckeditor.js"></script>
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
 

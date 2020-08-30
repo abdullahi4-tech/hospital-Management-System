@@ -21,8 +21,8 @@
     }
 </style>
 
-<link rel="stylesheet" href="<?php echo base_url(); ?>backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
-<script src="<?php echo base_url(); ?>backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<link rel="stylesheet" href="<?php echo base_url(); ?>styles/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+<script src="<?php echo base_url(); ?>styles/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
 <div class="content-wrapper">
 
     <section class="content">
@@ -324,7 +324,7 @@
                 data: {'keyword': $(this).val(), 'category': category_selected},
                 dataType: 'JSON',
                 beforeSend: function () {
-                    $("#search-query").css("background", "#FFF url(../../backend/images/loading.gif) no-repeat 165px");
+                    $("#search-query").css("background", "#FFF url(../../styles/images/loading.gif) no-repeat 165px");
                 },
                 success: function (data) {
 

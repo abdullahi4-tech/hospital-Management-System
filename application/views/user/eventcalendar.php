@@ -108,14 +108,14 @@
 <!-- ./wrapper -->
 
 
-<script src="<?php echo base_url() ?>backend/fullcalendar/dist/fullcalendar.min.js"></script>
+<script src="<?php echo base_url() ?>styles/fullcalendar/dist/fullcalendar.min.js"></script>
 
 <?php
 $language = $this->customlib->getLanguage();
 $language_name = $language["short_code"];
 if ($language_name != 'en') {
     ?>
-    <script src="<?php echo base_url() ?>backend/fullcalendar/dist/locale/<?php echo $language_name ?>.js"></script>
+    <script src="<?php echo base_url() ?>styles/fullcalendar/dist/locale/<?php echo $language_name ?>.js"></script>
 <?php } ?>
 <!-- Page specific script -->
 <script>

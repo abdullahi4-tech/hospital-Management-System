@@ -2,7 +2,7 @@
 
     }
 </style>
-<link rel="stylesheet" href="<?php echo base_url(); ?>backend/dist/css/chat/main.css"> 
+<link rel="stylesheet" href="<?php echo base_url(); ?>styles/dist/css/chat/main.css"> 
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
